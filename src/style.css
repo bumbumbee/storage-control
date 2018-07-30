@@ -1,0 +1,163 @@
+body{
+    margin:0 auto;
+    max-width: 1100px;
+    font-family: sans-serif;
+    border: 1px solid #c0c2ce;
+    user-select: none;
+    color: black;
+}
+
+header{
+    background-color: #d2d4dc;
+    display: flex;
+    justify-content: left;
+    padding-top: 30px;
+    color: black;
+    border-bottom: 1px solid #c0c2ce;
+}
+.active{
+    background: #c0c2ce;
+    position: relative;
+    padding: 5px 5px 20px 5px;
+}
+
+header ul{
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    margin-bottom: 0;
+
+}
+header li{
+    font-size: 18px;
+    color: black;
+    margin-left: 15px;
+    cursor: pointer;
+    padding: 5px 5px 20px 5px;
+}
+header .links{
+    width: 78%;
+}
+header h2{
+    margin-top: 0;
+    text-align: center;
+    font-size: 25px;
+    width: 20%;
+    padding-bottom: 10px;
+}
+
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar{
+    width: 20%;
+    background-color: #e5e6eb;
+    border-right: 1px solid #c0c2ce;
+    line-height: 3;
+}
+.sidebar h4, .sidebar li{
+    border-bottom: 1px solid #c0c2ce;
+}
+.sidebar h4{
+    text-align: center;
+    background-color: #d2d4dc;
+    margin-top: 0;
+}
+.sidebar li{
+    padding-left: 10px;
+}
+.sidebar ul{
+    padding-left: 0;
+}
+.content{
+    min-height: Calc(100vh - 300px);
+    margin: 50px 25px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    line-height: 2.5;
+    text-align: left;
+    border-bottom: 1px solid #c0c2ce;
+}
+.td-name{
+    padding-left: 25px;
+    width: 400px;
+    font-weight: bolder;
+}
+.td-cat{
+    width: 100px;
+    color: #d2d4dc;
+}
+.td-quantity, .td-price, .td-del{
+    width: 80px;
+    font-weight: bolder;
+}
+span{
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
+.form-item{
+    width: 330px;
+    margin: 10px;
+    line-height: 3;
+    border: 1px solid #c0c2ce;
+    border-radius: 3px;
+    text-align: center;
+}
+select{
+    text-align-last: center;
+}
+button{
+    display: block;
+    width: 75px;
+    height: 45px;
+    margin:  10px;
+    cursor: pointer;
+    background-color: #c0c2ce;
+    border: none;
+}
+.cat-list{
+    line-height: 1.8;
+    font-size: 18px;
+}
+.cat-list sup{
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+}
+.title{
+    margin: 20px 30px;
+    margin-bottom: -30px;
+}
+.ul-cat{
+    margin-top: -20px;
+    padding-left: 0;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 18px;
+}
+.sidebar-ul{
+    margin-top: 0;
+}
+.sidebar h4{
+    margin-bottom: 0;
+}
